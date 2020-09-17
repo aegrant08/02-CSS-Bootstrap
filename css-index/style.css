@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+
+/*Section styling*/
+#home {
+    width: 75%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*Image styling*/
+.picture {
+    max-height: 150px;
+    max-width: 50%;
+    margin-right: 15px;
+}
+
+/*About me paragraph styling*/
+.bio {}
