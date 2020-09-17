@@ -4,22 +4,30 @@
     margin: 0;
 }
 
-body
+.header nav ul {
+    list-style-type: none;
+}
 
-/*Section styling*/
-#home {
-    width: 75%;
+.header nav ul li {
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 /*Image styling*/
-.picture {
-    max-height: 150px;
-    max-width: 50%;
-    margin-right: 15px;
+#picture {
+    max-height: 250px;
+    max-width: 60%%;
+    margin-right: 25px;
 }
 
 /*About me paragraph styling*/
-.bio {}
+p,
+h2 {
+    font-size: 25px;
+    float: left;
+    font-family: 'Harmattan', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
