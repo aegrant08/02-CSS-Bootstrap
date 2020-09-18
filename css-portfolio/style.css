@@ -3,3 +3,32 @@
     padding: 0;
     margin: 0;
 }
+
+/*Header container styling*/
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    font-size: larger;
+
+}
+
+.jumbotron-fluid {
+    background-image: url("https://www.dccomics.com/sites/default/files/WW84Background_marquee_5e9e0b9bbffe26.31482710.jpg");
+
+}
+
+#name,
+#navigation,
+ul {
+    list-style-type: none;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+}
+
+#navigation,
+ul,
+li {
+    display: inline-block;
+    margin-left: 50px;
+}
