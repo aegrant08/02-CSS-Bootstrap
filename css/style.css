@@ -5,38 +5,51 @@
 }
 
 /*Header container styling*/
-h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Homemade Apple', cursive;
-    font-size: larger;
-
-}
-
 .jumbotron-fluid {
     background-image: url("https://www.dccomics.com/sites/default/files/WW84Background_marquee_5e9e0b9bbffe26.31482710.jpg");
+    min-height: 70px;
 
 }
 
-#name,
-#navigation,
-ul {
+header {
+    color: #ffffff;
+    font-family: 'Homemade Apple', cursive;
+    font-size: larger;
+}
+
+/*navigation bar*/
+header a {
+    color: #ffffff;
     list-style-type: none;
-    color: white;
     font-family: 'Homemade Apple', cursive;
 }
 
-#navigation,
-ul,
-li {
-    display: inline-block;
-    margin-left: 50px;
+header ul {
+    margin: 0;
+    padding: 0;
 }
 
+header li {
+    float: left;
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+
+}
+
+header #name h1 {
+    float: left;
+    margin: 0;
+}
+
+header a:hover {
+    color: green;
+}
+
+/*About Me Page*/
 /*Image styling*/
 #picture {
-    max-height: 250px;
-    max-width: 60%;
+    max-height: 400px;
+    max-width: 70%;
     margin-right: 25px;
 }
 
