@@ -1,7 +1,8 @@
-* {
+body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #6f8ea9;
 }
 
 /*Header container styling*/
@@ -37,6 +38,7 @@ header li {
 /*Home/About Me page*/
 section.new {
     float: left;
+    background-color: #6f8ea9;
 }
 
 div#picture {
@@ -57,10 +59,16 @@ p {
     text-align: justify;
 }
 
+/*Portfolio*/
+
+section img {
+    padding: 10px;
+}
+
 /*footer*/
 footer {
     padding: 20px;
-    color: blue;
-    background-color: crimson;
+    color: #ffffff;
+    background-color: #003b6f;
     text-align: center;
 }
