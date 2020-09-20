@@ -7,6 +7,8 @@
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS stylesheet link -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Andrea Grant: Contact</title>
@@ -16,35 +18,30 @@
     <!-- page header -->
     <header>
         <div class="jumbotron jumbotron-fluid">
-            <div id="wonder" class="container">
+            <div id="gallifrey" class="container">
                 <div id="name" class="row">
                     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
                     <h1>Andrea Grant</h1>
                 </div>
                 <!-- nav bar -->
-                <div id="navigation" class="container">
-                    <div class="row">
-                        <nav>
-                            <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
-                                rel="stylesheet">
-                            <ul>
-                                <li>
-                                    <a href="index.html">About Me</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact Me</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                <nav>
+                    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-    <section id="contact">
+    <section id="contact" class="container">
         <form>
             <div class="form-group">
                 <label for="exampleInputName1">Name</label>
@@ -53,8 +50,6 @@
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlLeaveMeAMessage1">Leave Me a Message</label>
@@ -63,6 +58,12 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
+
+    <!-- footer -->
+    <footer class="linked">
+        <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/aegrant08?tab=projects"></a></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </footer>
 
 </body>
 
