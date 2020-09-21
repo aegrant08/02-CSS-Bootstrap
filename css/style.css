@@ -5,22 +5,25 @@ body {
 }
 
 /*Header container styling*/
-.jumbotron-fluid {
-    background-image: url("https://cdn.hipwallpaper.com/i/45/72/pIiLr7.jpg");
+
+header {
+    background-color: #d99036;
+    padding-top: 30px;
     min-height: 70px;
 }
 
-header {
-    color: #ffffff;
+header h1 {
+    color: #728c11;
     font-family: 'Homemade Apple', cursive;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 /*navigation bar*/
 header a {
-    color: #ffffff;
+    color: #728c11;
     list-style-type: none;
     font-family: 'Homemade Apple', cursive;
+    font-size: 15px;
 }
 
 header ul {
