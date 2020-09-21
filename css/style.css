@@ -1,7 +1,8 @@
 body {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;   
+    margin: 0;
+    background: #aed3f2;   
 }
 
 /*Header container styling*/
@@ -70,7 +71,7 @@ section img {
 /*footer*/
 footer {
     padding: 20px;
-    color: #ffffff;
-    background-color: #003b6f;
+    color: #728c11;
+    background-color: #d99036;
     text-align: center;
 }
