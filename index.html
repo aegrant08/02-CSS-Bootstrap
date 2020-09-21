@@ -28,7 +28,7 @@
                             rel="stylesheet">
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link active" href="index.html">About Me</a>
+                                <a class="nav-link" href="index.html">About Me</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -44,11 +44,15 @@
     </header>
     <!-- container -->
     <section id="new" class="container">
-        <article id="about" class="row">
-            <div id="picture" class="col-sm-8">
+        <div class="row">
+            <div id="picture" class="col-lg">
                 <!-- Picture -->
-                <img src="https://avatars1.githubusercontent.com/u/69547453?s=400&u=4d63128cf4f0577e9ffd32fc89dd3e111489f53a&v=4"
+                <img class="img-responsive"
+                    src="https://avatars1.githubusercontent.com/u/69547453?s=400&u=4d63128cf4f0577e9ffd32fc89dd3e111489f53a&v=4"
                     alt="Andie in Florence" id="picture" class="left" />
+            </div>
+            <!-- About Me -->
+            <div id="blurb" class="col-lg">
                 <h2 id="bio" class="head">Welcome to My Portfolio!</h2>
                 <link href="https://fonts.googleapis.com/css2?family=Harmattan&display=swap" rel="stylesheet">
                 <p>My name is Andrea Grant (Andie for short). I currently work as an
@@ -64,17 +68,21 @@
                     stepping out of my comfort zone and challenging myself to try new things.
                 </p>
             </div>
-            <div id="quote" class="col-sm-4"></div>
-            <p>Fear is the mind-killer. <br>
-                Fear is the little-death that brings total obliteration. <br>
-                I will face my fear. <br>
-                I will permit it to pass over me and through me. <br>
-                And when it has gone past I will turn the inner eye to see its path. <br>
-                Where there fear has gone there will be nothing. <br>
-                Only I will remain.
-            </p>
+            <div id="quote" class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Fear is the mind-killer. <br>
+                            Fear is the little-death that brings total obliteration. <br>
+                            I will face my fear. <br>
+                            I will permit it to pass over me and through me. <br>
+                            And when it has gone past I will turn the inner eye to see its path. <br>
+                            Where there fear has gone there will be nothing. <br>
+                            Only I will remain.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </article>
+        </div>
     </section>
 
     <!-- footer -->

@@ -40,26 +40,28 @@ header li {
 
 /*Home/About Me page*/
 section.new {
-    float: left;
     background-color: #6f8ea9;
 }
 
-div#picture {
-    max-height: 400px;
+#picture {
+    max-height: 500px;
     max-width: 70%;
     float: left;
     margin-left: 10px;
 }
 
-/*Bio*/
-div.blurb {
-    font-size: 25px;
-    float: right;
+#blurb {
+    font-size: 20px;
+    float: left;
     font-family: 'Harmattan', sans-serif;
 }
 
 p {
     text-align: justify;
+}
+
+#quote {
+    float: right;
 }
 
 /*Portfolio*/
