@@ -1,13 +1,12 @@
 body {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    background-color: #6f8ea9;
+    margin: 0;   
 }
 
 /*Header container styling*/
 .jumbotron-fluid {
-    background-image: url("https://i.pinimg.com/originals/c7/39/2e/c7392e13197157b5f96b7d6ce948777f.png");
+    background-image: url("https://cdn.hipwallpaper.com/i/45/72/pIiLr7.jpg");
     min-height: 70px;
 }
 
