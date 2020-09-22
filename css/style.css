@@ -16,7 +16,7 @@ header {
 
 header h1 {
     color: #728c11;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Roboto Slab', serif;
     font-size: 30px;
 }
 
@@ -24,7 +24,7 @@ header h1 {
 header a {
     color: #728c11;
     list-style-type: none;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Roboto Slab', serif;
     font-size: 15px;
 }
 
@@ -40,9 +40,6 @@ header li {
 }
 
 /*Home/About Me page*/
-#home {
-    padding-top: 10px;
-}
 #new {
     padding: 25px;
     background: #aed3f2;
@@ -59,8 +56,8 @@ header li {
 
 p {
     text-align: justify;
-    font-size: 20px;
-    font-family: 'Harmattan', sans-serif;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
 }
 
 /*Portfolio*/
@@ -71,6 +68,7 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     background: #aed3f2;
+    font-family: 'Roboto Slab', serif;
 }
 
 .card {
@@ -87,6 +85,7 @@ p {
     padding-top: 20px;
     background: #165f8c;
     color: #ffffff;
+    font-family: 'Roboto Slab', serif;
 }
 
 .btn {
