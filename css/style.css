@@ -40,6 +40,9 @@ header li {
 }
 
 /*Home/About Me page*/
+#home {
+    padding-top: 10px;
+}
 #new {
     padding: 25px;
     background: #aed3f2;
@@ -60,19 +63,6 @@ p {
     font-family: 'Harmattan', sans-serif;
 }
 
-
-#quote {
-    margin-left: 20px;
-    padding: 20px 50px 20px 20px;
-    clear: both;
-    float: right;
-    width: 40%;
-    height: 100%;
-    background: #165f8c;
-    color: #ffffff;
-    font-style: italic;
-}
-
 /*Portfolio*/
 
 .card-deck {
@@ -80,6 +70,7 @@ p {
     padding-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    background: #aed3f2;
 }
 
 .card {
