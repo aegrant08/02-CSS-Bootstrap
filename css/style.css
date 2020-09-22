@@ -39,40 +39,50 @@ header li {
 }
 
 /*Home/About Me page*/
-section.new {
+section #new {
+    padding: 10px;
     background-color: #6f8ea9;
 }
 
-#picture {
+#Florence { 
     max-height: 500px;
     max-width: 70%;
     float: left;
     margin-left: 10px;
+    border-radius: 8px;
 }
 
 #blurb {
     font-size: 20px;
+    text-align: justify;
     float: left;
     font-family: 'Harmattan', sans-serif;
 }
 
-p {
-    text-align: justify;
-}
 
 #quote {
+    margin-right: 5px;
+    padding: 20px;
+    clear: both;
     float: right;
+    width: 20%;
+    background: #165f8c;
+    color: #ffffff;
 }
 
 /*Portfolio*/
 
-section img {
+.rounded {
     padding: 10px;
 }
 
 /*footer*/
 footer {
-    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
     color: #728c11;
     background-color: #d99036;
     text-align: center;
