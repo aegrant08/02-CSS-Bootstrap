@@ -10,6 +10,7 @@ body {
 header {
     background-color: #d99036;
     padding-top: 30px;
+    padding-bottom: 10px;
     min-height: 70px;
     border-bottom: #77b9f2 4px solid;
 }
@@ -114,4 +115,18 @@ footer {
 .fa {
     padding: 5px 10px 5px 0;
     color: #728c11;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+      #bar {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    #Florence {
+        padding-bottom: 10px;
+    }
 }
