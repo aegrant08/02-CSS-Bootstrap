@@ -26,3 +26,10 @@ Contact Me Page
 
 * Encourage visitors to use the icons on the footer to visit my GitHub and LinkedIn pages.
 
+(./Assets/Desktop-Home.png)
+(./Assets/Desktop-Portfolio.png)
+(./Assets/Desktop-ContactMe.png)
+(./Assets/MobileDevice-Home.png)
+(./Assets/MobileDevice-Portfolio.png)
+(./Assets/MobileDevice-ContactMe.png)
+
