@@ -14,7 +14,7 @@ About Me Page
 
 * Bootstrap grid layout is utilized for formatting and responsiveness.
 
-![Home Page](assets/1-Home-Page.png?raw=true)
+![Home Page](Assets/1-Home-Page.png?raw=true)
 
 Portfolio Page
 
@@ -22,13 +22,15 @@ Portfolio Page
 
 * Titles within each card are ready to be linked to projects as they are built.
 
-![Portfolio Page](assets/2-Portfolio-Page.png?raw=true)
+![Portfolio Page](Assets/2-Portfolio-Page.png?raw=true)
 
 Contact Me Page
 
 * Bootstrap form used to provide responsive layout.
 
 * Encourage visitors to use the icons on the footer to visit my GitHub and LinkedIn pages.
+
+![Contact Me Page](Assets/3-Contact-Me-Page.png?raw=true)
 
 Deployed Site
 
