@@ -1,4 +1,4 @@
-# 02-CSS-Bootstrap-AndreaGrant
+# Portfolio
 
 Andrea Grant Portfolio
 
@@ -30,9 +30,15 @@ Contact Me Page
 
 * Encourage visitors to use the icons on the footer to visit my GitHub and LinkedIn pages.
 
+<<<<<<< HEAD
 ![Contact Page](assets/3-Contact-Me-Page.png?raw=true)
 
 Deployed Link
 
 https://aegrant08.github.io/Portfolio/
 
+=======
+Deployed Site
+
+https://aegrant08.github.io/Portfolio/
+>>>>>>> 151fb2b65f7b5b00fcc88006ec23c16dd60c993a
